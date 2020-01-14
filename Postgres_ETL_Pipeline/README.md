@@ -5,6 +5,7 @@
 <p>A startup company called Sparkify provides music streaming to the users through the application. The analytics team is interested in understanding what songs users are listening to. The analytics team would like to analyse the data and gather insights and understanding to what songs their client base listens to. At the moment the team does not have a robust way to query the data which is stored in JSON formats about the song details and user activity from the application. The data is stored in JSON log files and meta data hosted on two local directories. </p>
 
 <p>As a Data Engineer assigned to this task, I am going to assist Sparkify: </p>
+
 - 1. Creating a Data Model with Postgres
 - 2. Design Database, through defining fact and dimension tables for a star schema
 - 3. Automate an ETL pipeline that transfers data from two local directories
@@ -96,4 +97,6 @@ python create_tables.py
  ```
 python etl.py
 ```
+
+###Success, if project does not run feel free to reach out to me or drop an email to moloishaun5@gmail.com
 
